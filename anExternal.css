@@ -1,0 +1,38 @@
+.smallImg {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 20px;
+}
+.paragraph {
+    color: blueviolet;
+    border-style: dotted;
+    border-color: aqua;
+}
+
+#firstFont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#secondFont {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#roundedContainer {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: blue;
+}
